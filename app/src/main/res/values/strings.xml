@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">WeatherAppTask</string>
+    <string name="search_screen_title">🌤️ Weather Explorer</string>
+    <string name="error_default">Unexpected error occurred.</string>
+    <string name="temperature_prefix">Temp: %1$d°</string>
+    <string name="condition_unavailable">N/A</string>
+    <string name="search_button_description">Search</string>
+    <string name="city_input_label">Enter city</string>
+    <string name="empty_state_message">🔍 No forecast available. Try another city.</string>
+    <string name="weather_lookup_title">Weather Lookup</string>
+    <string name="back_button">Back</string>
+    <string name="feels_like">Feels like %1$d°</string>
+</resources>
