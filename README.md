@@ -18,7 +18,7 @@ A simple Android app that allows users to enter a city name and view the 5-day w
 * **Endpoint:**
   `https://api.openweathermap.org/data/2.5/forecast?q={city}&appid={API_KEY}`
 * **API Key Used:**
-  `65d00499677e59496ca2f318eb68c049`
+  ``
 
 ## 🛠️ Tech Stack
 
