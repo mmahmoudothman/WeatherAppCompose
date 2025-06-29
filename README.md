@@ -41,6 +41,12 @@ A simple Android app that allows users to enter a city name and view the 5-day w
 | ![Search](https://github.com/user-attachments/assets/e70136dd-742d-44fb-8ba7-87b8bc0af580) | ![List](https://github.com/user-attachments/assets/54c85217-ad93-46d9-94ee-76fa214fd46c) | ![Detail](https://github.com/user-attachments/assets/818bbc7e-2cc2-411e-9ec9-f224da985dec) |
 
 
+
+https://github.com/user-attachments/assets/f440c4df-5047-4628-bcd7-cd4111a60276
+
+
+
+
 ## 🚀 Getting Started
 
 1. Clone the repo:
