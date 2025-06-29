@@ -30,7 +30,7 @@ import com.ozman.newarch.nav.Screen
 import com.ozman.weatherapptask.R
 import com.ozman.weatherapptask.data.datasource.remote.response.Forecast
 import com.ozman.weatherapptask.presentation.search.SearchViewModel
-import com.ozman.weatherapptask.ui.theme.TextPrimary
+import com.ozman.weatherapptask.ui.theme.AppThemeColors
 
 private val cardShape = RoundedCornerShape(12.dp)
 
@@ -110,7 +110,7 @@ fun WeatherRow(
             Text(
                 text = item.weather.firstOrNull()?.condition ?: "N/A",
                 style = MaterialTheme.typography.titleMedium,
-                color = TextPrimary
+                color = AppThemeColors.textPrimary
             )
 
             Text(

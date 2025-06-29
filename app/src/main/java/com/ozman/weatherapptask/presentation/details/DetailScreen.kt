@@ -31,10 +31,7 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.ozman.weatherapptask.R
 import com.ozman.weatherapptask.data.datasource.remote.response.Forecast
-import com.ozman.weatherapptask.ui.theme.DetailBackground
-import com.ozman.weatherapptask.ui.theme.TextAccent
-import com.ozman.weatherapptask.ui.theme.TextPrimary
-import com.ozman.weatherapptask.ui.theme.TextSecondary
+import com.ozman.weatherapptask.ui.theme.AppThemeColors
 
 
 private val cardShape = RoundedCornerShape(24.dp)
@@ -71,7 +68,7 @@ fun WeatherDetailScreen(
                 )
             )
         },
-        containerColor = DetailBackground
+        containerColor = AppThemeColors.detailBackground
     ) { paddingValues ->
         Column(
             modifier = Modifier
@@ -99,7 +96,7 @@ fun WeatherDetailScreen(
                         text = "${item.temperature.toInt()}°",
                         fontSize = 72.sp,
                         fontWeight = FontWeight.Bold,
-                        color = TextPrimary
+                        color = AppThemeColors.textPrimary
                     )
                     Row(
                         modifier = Modifier.fillMaxWidth(),
@@ -109,7 +106,7 @@ fun WeatherDetailScreen(
                             text = stringResource(id = R.string.feels_like, item.feelsLike.toInt()),
                             fontSize = 18.sp,
                             fontWeight = FontWeight.Medium,
-                            color = TextSecondary,
+                            color = AppThemeColors.textSecondary,
                             modifier = Modifier.padding(end = 12.dp, bottom = 8.dp)
                         )
                     }
@@ -134,7 +131,7 @@ fun WeatherDetailScreen(
                         text = condition ?: stringResource(R.string.condition_unavailable),
                         fontSize = 26.sp,
                         fontWeight = FontWeight.SemiBold,
-                        color = TextPrimary
+                        color = AppThemeColors.textPrimary
                     )
 
                     Spacer(modifier = Modifier.height(8.dp))
@@ -143,7 +140,7 @@ fun WeatherDetailScreen(
                         Text(
                             text = description.replaceFirstChar { it.uppercase() },
                             fontSize = 16.sp,
-                            color = TextAccent
+                            color = AppThemeColors.textAccent
                         )
                     }
                 }
